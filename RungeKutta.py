@@ -71,5 +71,3 @@ def secondOrderRungeKutta(d2y, xmin:float, xmax:float, y0:float, dy0:float, n_st
         y[i+1] = y[i] + (K1+2*K2+2*K3+K4)/6
         u[i+1] = u[i] + (L1+2*L2+2*L3+L4)/6
     return y,u
-
-
